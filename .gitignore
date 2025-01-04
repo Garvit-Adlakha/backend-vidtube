@@ -1,0 +1,75 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+/node_modules/
+/client/node_modules/
+/server/node_modules/
+
+# Build outputs
+/dist/
+/build/
+/client/build/
+/server/build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database and local files
+*.sqlite
+*.sqlite3
+/db.json
+/local/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Debugging
+*.log
+*.gz
+
+# Testing
+/coverage/
+.nyc_output/
+
+# Miscellaneous
+*.lock
+*.log.*
+*.swp
+*.tmp
+*.temp
+
+# React specific
+*.cache
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# MongoDB
+dump/
+
+# Other generated files
+public/static/
